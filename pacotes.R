@@ -1,22 +1,9 @@
-# http://cran.rstudio.com/
+install.packages("argo") #instalar o pacote
+library(argo) #carregar o pacote
 
-# BAIXAR PACOTES, CASO ELES AINDA NÃO ESTEJAM BAIXADOS
-install.packages("argo")
+#baixar pacotes, caso eles ainda não estejam baixados
+if(!require(argo)) isntall.packages("argo")
 
-# CARREGAR PACOTES
-library(argo)
-
-?argo
-
-# BAIXAR PACOTES, CASO ELES AINDA NãO ESTEJAM BAIXADOS
-if(!require(argo)) install.packages("argo") 
-
-# CARREGAR PACOTES
-library(argo)
-
-# REMOVER PACOTES
+#remove pacotes
 remove.packages("argo")
-
-
-
 
